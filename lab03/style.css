@@ -1,0 +1,53 @@
+body {
+    background-color: #31AAA9;
+    color: #F8E0A4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body h1 {
+    color: #F8E0A4;
+    font-size: 36px;
+    background-color: #6C1A1A;
+    border: 8px solid white;
+}
+
+body h2 {
+    color: #F8E0A4;
+    font-size: 24px;
+    background-color: #6C1A1A;
+    border: 8px solid white;
+}
+
+body h3 {
+    color: #F8E0A4;
+    font-size: 18px;
+    background-color: #6C1A1A;
+    border: 8px solid white;
+}
+
+
+p {
+    color:#6C1A1A; 
+    background-color: #F8E0A4;
+}
+a {
+    color: #A82020;
+}
+
+ul {
+    color: #6C1A1A;background-color: #F8E0A4;
+}
+
+ol {
+    color: #6C1A1A;background-color: #F8E0A4;
+}
+
+#dan939342 {
+    color: white; 
+    font-weight: bold;
+}
+
+.modulenumber {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
