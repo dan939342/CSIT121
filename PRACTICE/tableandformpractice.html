@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TableandFormPractice</title>
+    <link href="tablestyle.css" rel="stylesheet" />
+</head>
+<body>
+    <table>
+        <caption>
+            <b>
+        Dan939342 Fall 2026 CCBC Course Schedule
+            </b>
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">
+                    COURSE NUMBER
+                </th>
+                <th scope="col">
+                    COURSE NAME 
+                </th>
+                <th scope="col">
+                    INSTRUCTOR
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    CSIT 111-EMW
+                </td>
+                <td>
+                    Logic and Design (I)
+                </td>
+                <td>
+                    Sandra Tavegia
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSIT 121-EFW
+                </td>
+                <td>
+                    Web Standards
+                </td>
+                <td>
+                    Lex Brown
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DCOM 142-WLA
+                </td>
+                <td>
+                    Intro to Linux UNIX
+                </td>
+                <td>
+                    Adebayo Cole
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MATH 153-EFW
+                </td>
+                <td>
+                    Web Standards
+                </td>
+                <td>
+                    Barbara Leitherer
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<form action="/my-handling-form-page" method="post">
+  <p>
+    <div class="emailAddress">
+        <label for="emailAddress">Email address:</label><br />
+        <input
+        id="emailAddress"
+        type="email"
+        size="64"
+        maxlength="64"
+        required
+        placeholder="userid@email.ccbcmd.edu"
+        pattern=".+@ccbcmd\.edu"
+        title="Please provide only a CCBC email address" />
+    </div>
+  </p>
+  <p>
+    <div class="messageBox">
+        <label for="message">Comment:</label><br />
+        <textarea
+        id="message"
+        maxlength="1600">
+        </textarea>
+    </div>
+  </p>
+  <p class="button">
+  <button type="submit">Send</button>
+  </p>
+</form>
+<footer>    
+    <b>
+        Damian Daniels - dan939342@email.ccbcmd.edu
+    </b>
+</footer>
+
+</body>
+</html>
