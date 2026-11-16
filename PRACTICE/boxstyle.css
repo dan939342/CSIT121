@@ -1,0 +1,5 @@
+div {height: 200px; width: 200px; border: 2px; background-color: bisque; margin: auto; padding: auto;}
+
+#box2 {float: right;}
+
+#box1 {position: 50px, 325px;}
